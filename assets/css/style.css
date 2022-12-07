@@ -77,7 +77,7 @@ p {
     float: left;
     margin-right: 25px;
 }
-/*places image for SEO and social media marketing div elements on the right hand side of the associated text*/
+/*places image for SEO and social media marketing div elements on the left hand side of the associated text*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -89,8 +89,10 @@ p {
     margin-left: 20px;
 }
 
+/*positions benefit section of the page in the available space to the right of content section of page*/
 .benefits {
     margin-right: 20px;
+    margin-bottom: 32px;
     padding: 20px;
     clear: both;
     float: right;
