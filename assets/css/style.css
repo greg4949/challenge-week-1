@@ -1,13 +1,16 @@
+/*border-box sets default behavior of element to include padding and border in an element's total width and height*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*sets default background for body of page*/
 body {
     background-color: #d9dcd6;
 }
 
+/*sets formatting for header element of page*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*formats company name in header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*formats letters "seo" of Horiseon different color than the rest of the letters*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*formats navigation links*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,26 +39,30 @@ body {
 }
 
 
+/* sets list of navigation links to not have a list style type*/
 .header nav ul {
     list-style-type: none;
 }
 
 
-
+/*formats link items to display horizonally and spaces them apart according to the number of pixels shown*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*formats hyperlink font to color shown and displays hyperlink without a line*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*formats paragraph text to be the size shown*/
 p {
     font-size: 16px;
 }
 
+/*formats the image just below the header*/
 .hero {
     height: 800px;
     width: 100%;
@@ -62,11 +72,12 @@ p {
     background-position: center;
 }
 
+/*places image for SEO and social media marketing div elements on the left hand side of the associated text*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*places image for SEO and social media marketing div elements on the right hand side of the associated text*/
 .float-right {
     float: right;
     margin-left: 25px;
